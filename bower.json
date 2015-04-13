@@ -1,0 +1,13 @@
+{
+  "name": "crazyflieChromeClient",
+  "description": "Crazyflie Chrome-app client",
+  "homepage": "",
+  "keywords": [
+  ],
+  "author": "Bitcraze",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "underscore": "~1.8.3"
+  }
+}

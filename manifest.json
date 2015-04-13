@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "crazyflieChromeClient",
+  "short_name": "Crazyflie Client",
+  "description": "Client for the Bitcraze Crazyflie quadcopter",
+  "version": "0.0.1",
+  "minimum_chrome_version": "39",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "usb",
+    {
+      "usbDevices": [
+        {
+          "vendorId": 6421,
+          "productId": 30583
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+/* CSS file placeholder. */
+
+#packetLed {
+  display: block;
+  
+  height: 16px;
+  width: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.49);
+  margin: 5px;
+  
+  background-color: #aaa;
+}
+
+#packetLed.connected {
+  background-color: red;
+}
+
+#packetLed.connected.good {
+  background-color: lime;
+}

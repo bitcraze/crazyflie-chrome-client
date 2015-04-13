@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crazyflie clien</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  Channel: <input type="number" min="0" max="125" id="channel" value="2"><br>
+  Datarate: 
+  <select id="datarate" value="2Mbps">
+    <option value="2Mbps">2Mbps</option>
+    <option value="1Mbps">1Mbps</option>
+    <option value="250Kbps">250Kbps</option>
+  </select>
+  <br>
+
+  <a href="#" id="connectButton">Connect Crazyflie</a>
+  
+  <div id="packetLed"></div>
+  
+  <div id="gamepadText">Press <i>X</i> (or <i>A</i>) on the gamepad you want to use</div>
+
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="crazyradio.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
