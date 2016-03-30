@@ -16,8 +16,8 @@
       "scripts": ["background.js"]
     }
   },
-  "permissions": [
-    "usb",
+  "permissions": ["usb"],
+  "optional_permissions": [
     {
       "usbDevices": [
         {
